@@ -1,0 +1,14 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Variables de entorno
+.env
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
