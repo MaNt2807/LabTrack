@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LabTrack — Crear Cuenta</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="login-page">
+  <div class="login-card">
+    <div class="login-logo">L</div>
+    <h1>Crear Cuenta</h1>
+    <p>Completa los datos para registrarte</p>
+
+    <div id="alerta" class="alert-custom"></div>
+
+    <div class="form-group">
+      <label class="form-label" for="inputNombre">Nombre completo</label>
+      <input type="text" id="inputNombre" class="form-control" placeholder="Tu nombre" autofocus>
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="inputEmail">Correo electrónico</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="correo@itsr.edu.mx">
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="inputPassword">Contraseña</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Mínimo 6 caracteres">
+    </div>
+
+    <button id="btnRegistro" onclick="registro()" style="width:100%; padding: 11px; margin-top: 6px; border: none; background: #10b981; color:#fff; border-radius: 8px; font-size:14px; font-weight: 600; cursor:pointer; transition: background 0.15s;">
+      Registrarme
+    </button>
+
+    <p style="text-align:center; margin-top:20px; font-size:13px; color:#64748b;">
+      ¿Ya tienes cuenta? <a href="login.html" style="color:#3b82f6; font-weight:500;">Inicia sesión aquí</a>
+    </p>
+  </div>
+</div>
+<script src="./js/registro.js"></script>
+</body>
+</html>
